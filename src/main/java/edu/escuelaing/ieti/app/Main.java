@@ -1,13 +1,13 @@
-package org.example;
+package edu.escuelaing.ieti.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RailwayApplication {
+public class Main {
 
     public static void main(String[] args) {
-        SpringApplication.run(RailwayApplication.class, args);
+        SpringApplication.run(Main.class, args);
     }
 
 }
